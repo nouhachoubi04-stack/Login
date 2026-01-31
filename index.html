@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form Slide Effect</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="curved-shape"></div>
+      <div class="curved-shape2"></div>
+      
+      <!-- Login Form -->
+      <div class="form-box login">
+        <h2 class="animation" style=" width: 350%;
+         right: 300px;--D: 0; --S: 21 " >WELCOME BACK!</h2>
+        <h2 class="animation" style="--D: 0; --S: 21">Login</h2>
+        <form action="#">
+          <div class="input-box animation" style="--D: 1; --S: 22">
+            <input type="text" required />
+            <label for="">username</label>
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div class="input-box animation" style="--D: 2; --S: 23">
+            <input type="password" required />
+            <label for="">password</label>
+            <i class="fa-solid fa-lock"></i>
+          </div>
+          <div class="input-box animation" style="--D: 3; --S: 24">
+            <button type="submit" class="btn">Login</button>
+          </div>
+          <div class="regi-link animation" style="--D: 4; --S: 25">
+            <p>
+              Don't have an account? <a href="#" class="SignUplink">Sign Up</a>
+            </p>
+          </div>
+        </form>
+      </div>
+      
+      <!-- Signup Form -->
+      <div class="form-box Signup">
+        <h2 class="animation" style="--li: 17; --S: 0">SING UP !</h2>
+        <form action="#">
+          <div class="input-box animation" style="--li: 18; --S: 1">
+            <input type="text" required />
+            <label for="">Username</label>
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div class="input-box animation" style="--li: 19; --S: 1">
+            <input type="email" required />
+            <label for="">Email</label>
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="input-box animation" style="--li: 20; --S: 2">
+            <input type="password" required />
+            <label for="">Password</label>
+            <i class="fa-solid fa-lock"></i>
+          </div>
+          <div class="input-box animation" style="--li: 21; --S: 3">
+            <button type="submit" class="btn">Sign Up</button>
+          </div>
+          <div class="regi-link animation" style="--li: 22; --S: 4">
+            <p>
+              Already have an account? <a href="#" class="Loginlink">Sign In</a>
+            </p>
+          </div>
+        </form>
+      </div>
+      
+      
+      
+      <!-- Signup Info Content -->
+      <div class="info-content Signup" style="width: 10px;"  >
+        
+        <h2 class="animation" style="--li: 17; --S: 0"   >JOIN WITH US ?</h2>
+       
+      </div>
+    </div>
+    
+    <script src="login-form-slide.js"></script>
+  </body>
+</html>
