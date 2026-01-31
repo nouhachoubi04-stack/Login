@@ -18,7 +18,12 @@ Le projet est développé avec **HTML, CSS et JavaScript pur** et inclut des ani
 2. Pour créer un nouveau compte, cliquez sur **Sign Up** → le formulaire glisse vers la droite  
 3. Pour revenir au Login, cliquez sur **Sign In** → le formulaire glisse vers la gauche  
 
+<<<<<<< HEAD
 
 ## Screenshots
 ![Login Form](login.png)
 ![Sign Up Form](signup.png)
+=======
+## Structure du projet
+
+>>>>>>> 2ecc3f761857f986c4f23698a1e72da1a82958ad
